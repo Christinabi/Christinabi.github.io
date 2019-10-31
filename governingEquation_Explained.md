@@ -66,7 +66,7 @@ The left-hand side describes how solid concentration changes over time. The righ
  \frac{\partial \varepsilon_e c_e}{\partial t} = \nabla \cdot \left( D_{e,eff}\nabla c_e \right)+a_s\left(1-t_+^0\right)j,
  $$
 
- which has three terms. We notice we've already familiar with the first two terms–the diffusion equation described by Fick's second law, which can be interpreted as the change of electrolyte concentration is partially due to the concentration gradient inside the electrolyte across the thickness. However, we've also noticed that different from inside the solid phase, where the ion concentration is only changed due to the gradient, ion concentration inside the electrolyte also changes when there is a flux coming from the solid particle (due to migration), hence the \\(a_s\left(1-t_+^0\right)j\\) term. But why $1-t_+^0$? We recognize that $t_+^0$, called the transference number, is defined to be the fraction of current carried by the positively charged ion. Then $1-t_+^0$ is the fraction of lithium ions that stays in the electrolyte and contributes to change of concentration. 
+ which has three terms. We notice we are familiar with the first two terms–the diffusion equation described by Fick's second law, which can be interpreted as the change of electrolyte concentration is partially due to the concentration gradient inside the electrolyte across the thickness. However, we've also noticed that different from inside the solid phase, where the ion concentration is only changed due to the gradient, ion concentration inside the electrolyte also changes when there is a flux coming from the solid particle (due to migration), hence the \\(a_s\left(1-t_+^0\right)j\\) term. But why \\(1-t_+^0\\) ? We recognize that \\(t_+^0\\) , called the transference number, is defined to be the fraction of current carried by the positively charged ion. Then \\(1-t_+^0\\)  is the fraction of lithium ions that stays in the electrolyte and contributes to change of concentration. 
 
 ### Charge conservation in solid
 
@@ -76,15 +76,15 @@ The left-hand side describes how solid concentration changes over time. The righ
  \nabla \cdot \mathbf{i_s} = \nabla \cdot \left(-\sigma\nabla\phi_s \right)=0.
  $$
 
- Without the divergence term, we recognize that it's the Ohm's law, $\mathbf{i_s} = -\sigma\nabla\phi_s$, where $\sigma$ is the ionic conductivity. The negative sign is because here we take the gradient ($\nabla$) instead of the different ($\Delta$) of potential. This is also important that the left two terms equal to zero, which says that the same amount of charge must exit the volume as enters it. 
+ Without the divergence term, we recognize that it's the Ohm's law, \\(\mathbf{i_s} = -\sigma\nabla\phi_s\\), where \\(\sigma\\) is the ionic conductivity. The negative sign is because here we take the gradient (\\(\nabla\\)) instead of the different (\\(\Delta\\)) of potential. This is also important that the left two terms equal to zero, which says that the same amount of charge must exit the volume as enters it. 
 
- So if we apply volume average theorem to $\nabla \cdot \left(-\sigma\nabla\phi_s \right)=0$ we can get our target equation (without derivation)
+ So if we apply volume average theorem to \\(\nabla \cdot \left(-\sigma\nabla\phi_s \right)=0\\) we can get our target equation (without derivation)
 
  $$
  \nabla\cdot\left(\sigma_{eff}\nabla\phi_s\right)-a_sFj=0,
  $$
 
-where the first term is the divergence of change of solid phase potential, while the second term is a correction term that represents the flux out of the surface inside of the solid particle.  Note that $a_s$ is *specific interfacial surface area* of a particle, which is calculated as
+where the first term is the divergence of change of solid phase potential, while the second term is a correction term that represents the flux out of the surface inside of the solid particle.  Note that \\(a_s\\) is *specific interfacial surface area* of a particle, which is calculated as
 
 $$
 a_s = \frac{3\varepsilon_s}{R_s}.
@@ -98,13 +98,13 @@ $$
 \nabla\cdot\left(\kappa_{eff}\nabla\phi_e+\kappa_{D,eff}\nabla\ln c_e\right)+a_sFj=0
 $$
 
-So far, we have seen similar terms as the first and the third term. However, the second term is not obvious: where the $\ln c$ comes from? This is because in the literature, the chemical potential gradient is usually expressed in terms of $\nabla\ln c$ via
+So far, we have seen similar terms as the first and the third term. However, the second term is not obvious: where the \\(\ln c\\) comes from? This is because in the literature, the chemical potential gradient is usually expressed in terms of \\(\nabla\ln c\\) via
 
 $$
 \nabla \mu_e =\frac{\partial \mu_e}{\partial \ln c}\nabla\ln c.
 $$
 
-Also note that the sign in front of $a_s Fj$ is positive, which is opposite to that from the solid phase equation. This is because now we are considering the surface outside the solid/electrolyte interface that has the same direction as the ion flux.
+Also note that the sign in front of \\(a_s Fj\\) is positive, which is opposite to that from the solid phase equation. This is because now we are considering the surface outside the solid/electrolyte interface that has the same direction as the ion flux.
 
 ### Butler-Volmer kinetics equation
 
@@ -114,13 +114,13 @@ $$
 j=\frac{i_0}{F}\left\{\exp\left(\frac{\left(1-\alpha\right)F}{RT}\eta\right)-\exp\left(-\frac{\alpha F}{RT}\eta\right)\right\}
 $$
 
-Specifically, there are two terms inside the bracket, which describes the reduction reaction and oxidation reaction, respective. $\eta$ is the overpotential
+Specifically, there are two terms inside the bracket, which describes the reduction reaction and oxidation reaction, respective. \\(\eta\\) is the overpotential
 
 $$
 \eta = \left(\phi_s-\phi_e\right)-U_{OCV}
 $$
 
-which indicates the direction of lithium ion flux by comparing the potential difference between solid and electrolyte with the open-circuit voltage, $U_{OCV}$.
+which indicates the direction of lithium ion flux by comparing the potential difference between solid and electrolyte with the open-circuit voltage, \\(U_{OCV}\\).
 
 Hopefully by now you've had an intuitive understanding of all five of the governing equations. These equations are powerful enough to describe lithium-ion batteries with various electrode materials. I will see you next time!
 
