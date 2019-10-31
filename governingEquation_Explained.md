@@ -30,7 +30,9 @@ $$\nabla\cdot\left(\kappa_{eff}\nabla\phi_e+\kappa_{D,eff}\nabla\ln c_e\right)+a
 
 5. Butler-Volmer kinetics relationship
 
-$$j=j\left(\right)$$
+$$
+j=\frac{i_0}{F}\left\{\exp\left(\frac{\left(1-\alpha\right)F}{RT}\eta\right)-\exp\left(-\frac{\alpha F}{RT}\eta\right)\right\}
+$$
 
 ### Mass conservation in the solid
 
