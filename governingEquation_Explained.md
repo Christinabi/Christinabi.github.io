@@ -42,8 +42,8 @@ Now let's look at the equation
 
 $$\frac{\partial c_s}{\partial t}=\frac{1}{r} \frac{\partial}{\partial r} \left( D_sr^2 \frac{\partial c_s}{\partial r}\right)$$
 
-The left-hand side describes how the solid concentration changes over time. The-right hand side is actually the divergence of the concentration flux density
+The left-hand side describes how the solid concentration changes over time. The-right hand side is actually the negative divergence of the concentration flux density
 
 $$\mathbf{N}=-D\nabla c$$ 
 
-where the minus sign shows that the flux density has opposite direction to the gradient, implying that the ions move from a high concentration to a low concentration. 
+where the minus sign shows that the flux density has opposite direction to the gradient, implying that the ions move from a high concentration to a low concentration. Therefore the negative divergence represents net flux density into a particle, which is equal to the rate of change of lithium ion concentration in that particle. 
