@@ -1,4 +1,4 @@
-
+theme: minima
 markdown: kramdown
 permalink: pretty
 highlighter: rouge
