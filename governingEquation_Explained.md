@@ -66,7 +66,7 @@ The left-hand side describes how solid concentration changes over time. The righ
  \frac{\partial \varepsilon_e c_e}{\partial t} = \nabla \cdot \left( D_{e,eff}\nabla c_e \right)+a_s\left(1-t_+^0\right)j,
  $$
 
- which has three terms. We notice we've already familiar with the first two terms–the diffusion equation described by Fick's second law, which can be interpreted as the change of electrolyte concentration is partially due to the concentration gradient inside the electrolyte across the thickness. However, we've also noticed that different from inside the solid phase, where the ion concentration is only changed due to the gradient, ion concentration inside the electrolyte also changes when there is a flux coming from the solid particle (due to migration), hence the \(a_s\left(1-t_+^0\right)j\) term. But why $1-t_+^0$? We recognize that $t_+^0$, called the transference number, is defined to be the fraction of current carried by the positively charged ion. Then $1-t_+^0$ is the fraction of lithium ions that stays in the electrolyte and contributes to change of concentration. 
+ which has three terms. We notice we've already familiar with the first two terms–the diffusion equation described by Fick's second law, which can be interpreted as the change of electrolyte concentration is partially due to the concentration gradient inside the electrolyte across the thickness. However, we've also noticed that different from inside the solid phase, where the ion concentration is only changed due to the gradient, ion concentration inside the electrolyte also changes when there is a flux coming from the solid particle (due to migration), hence the \\(a_s\left(1-t_+^0\right)j\\) term. But why $1-t_+^0$? We recognize that $t_+^0$, called the transference number, is defined to be the fraction of current carried by the positively charged ion. Then $1-t_+^0$ is the fraction of lithium ions that stays in the electrolyte and contributes to change of concentration. 
 
 ### Charge conservation in solid
 
@@ -103,6 +103,7 @@ So far, we have seen similar terms as the first and the third term. However, the
 $$
 \nabla \mu_e =\frac{\partial \mu_e}{\partial \ln c}\nabla\ln c.
 $$
+
 Also note that the sign in front of $a_s Fj$ is positive, which is opposite to that from the solid phase equation. This is because now we are considering the surface outside the solid/electrolyte interface that has the same direction as the ion flux.
 
 ### Butler-Volmer kinetics equation
