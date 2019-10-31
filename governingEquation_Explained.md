@@ -43,4 +43,5 @@ $$\frac{\partial c_s}{\partial t}=\frac{1}{r} \frac{\partial}{\partial r} \left(
 The left-hand side describes how the solid concentration changes over time. The-right hand side is actually the divergence of the concentration flux density
 
 $$\mathbf{N}=-D\nabla c$$ 
+
 where the minus sign shows that the flux density has opposite direction to the gradient, implying that the ions move from a high concentration to a low concentration. 
