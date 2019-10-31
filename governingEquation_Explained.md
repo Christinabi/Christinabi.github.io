@@ -58,7 +58,7 @@ The left-hand side describes how solid concentration changes over time. The righ
 
  where the minus sign shows that the flux density has the opposite direction to the gradient, implying that the ions move from a high concentration to a low concentration. Therefore the negative divergence represents net flux density into a particle, which is equal to the rate of change of lithium ion concentration in that particle. 
 
- ### Mass conservation in electrolyte
+### Mass conservation in electrolyte
 
  We rewrite the equation
 
@@ -68,7 +68,7 @@ The left-hand side describes how solid concentration changes over time. The righ
 
  which has three terms. We notice we've already familiar with the first two terms–the diffusion equation described by Fick's second law, which can be interpreted as the change of electrolyte concentration is partially due to the concentration gradient inside the electrolyte across the thickness. However, we've also noticed that different from inside the solid phase, where the ion concentration is only changed due to the gradient, ion concentration inside the electrolyte also changes when there is a flux coming from the solid particle (due to migration), hence the $a_s\left(1-t_+^0\right)j$ term. But why $1-t_+^0$? We recognize that $t_+^0$, called the transference number, is defined to be the fraction of current carried by the positively charged ion. Then $1-t_+^0$ is the fraction of lithium ions that stays in the electrolyte and contributes to change of concentration. 
 
- ### Charge conservation in solid
+### Charge conservation in solid
 
  We first take a look at a more general equation for a solid phase volume
 
@@ -118,8 +118,10 @@ Specifically, there are two terms inside the bracket, which describes the reduct
 $$
 \eta = \left(\phi_s-\phi_e\right)-U_{OCV}
 $$
+
 which indicates the direction of lithium ion flux by comparing the potential difference between solid and electrolyte with the open-circuit voltage, $U_{OCV}$.
 
 Hopefully by now you've had an intuitive understanding of all five of the governing equations. These equations are powerful enough to describe lithium-ion batteries with various electrode materials. I will see you next time!
+
 
  [^1]: This post is inspired by Prof. Plett's book on battery modeling: Plett, Gregory L. Battery management systems, Volume I: Battery modeling. Vol. 1. Artech House, 2015.
