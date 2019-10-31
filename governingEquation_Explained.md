@@ -4,9 +4,9 @@ mathjax: true
 permalink: /governingEquation/
 ---
 
-# Governing equations of lithium-ion battery model
+## Governing equations of lithium-ion battery model
 
-## Governing equations
+### Governing equations
 
 When we talked about electrochemical model of a battery, five governing equations will be mentioned, those are
 
@@ -32,7 +32,7 @@ $$\nabla\cdot\left(\kappa_{eff}\nabla\phi_e+\kappa_{D,eff}\nabla\ln c_e\right)+a
 
 $$j=j\left(\right)$$
 
-## Mass conservation in the solid
+### Mass conservation in the solid
 
 Inside a composite electrode, there are particles with various shapes and sizes. However, it is overwhelming when we are trying model it. Therefore, we assume that spherical particles centered at grid location in the electrode, and that the concentration distribution within the particle is spherically symmetric. This way we can model the concentration inside a particle using a radius dimension, which is what we called a `pseudo-dimension`.  
 
