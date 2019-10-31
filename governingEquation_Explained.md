@@ -12,7 +12,9 @@ When we talked about electrochemical model of a battery, five governing equation
 
 1. The solid phase mass conservation equation
 
-$$\frac{\partial c_s}{\partial t}=\frac{1}{r} \frac{\partial}{\partial r} \left( D_sr^2 \frac{\partial c_s}{\partial r}\right)$$
+$$
+\frac{\partial c_s}{\partial t}=\frac{1}{r} \frac{\partial}{\partial r} \left( D_sr^2 \frac{\partial c_s}{\partial r}\right)
+$$
 
 2. The electrolyte phase mass conservation equation
 
