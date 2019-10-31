@@ -1,3 +1,9 @@
+---
+layout: page
+mathjax: true
+permalink: /governingEquation/
+---
+
 # Governing equations of lithium-ion battery model
 
 ## Governing equations
