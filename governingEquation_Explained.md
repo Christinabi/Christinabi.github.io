@@ -42,7 +42,7 @@ $$
 
 ### Mass conservation in solid
 
-Inside a composite electrode, there are particles with various shapes and sizes. However, it is overwhelming if we are trying to model it. Therefore, we assume that spherical particles centered at grid location in the electrode, and that the concentration distribution within the particle is spherically symmetric. This way, we can model the concentration inside a particle using a radius dimension, which is what we called a `pseudo-dimension`.  
+Inside a composite electrode, there are particles with various shapes and sizes. However, it is overwhelming if we are trying to model it. Therefore, we assume that spherical particles centered at grid location in the electrode, and that the concentration distribution within the particle is spherically symmetric. This way, we can model the concentration inside a particle using a radius dimension, which is what we called a *pseudo-dimension*.  
 
 Now let's look at the equation
 
