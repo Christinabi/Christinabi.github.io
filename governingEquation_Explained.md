@@ -125,4 +125,4 @@ which indicates the direction of lithium ion flux by comparing the potential dif
 Hopefully by now you've had an intuitive understanding of all five of the governing equations. These equations are powerful enough to describe lithium-ion batteries with various electrode materials. I will see you next time!
 
 
- [^1]: This post is inspired by Prof. Plett's book on battery modeling: Plett, Gregory L. Battery management systems, Volume I: Battery modeling. Vol. 1. Artech House, 2015.
+ [^1]: This post is inspired by Prof. Plett's book on battery modeling: **[Plett, Gregory L. Battery management systems, Volume I: Battery modeling. Vol. 1. Artech House, 2015](http://mocha-java.uccs.edu/BMS1/)**.
